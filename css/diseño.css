@@ -1,0 +1,123 @@
+body{
+    height: 0%;
+    width: 0%;
+    margin:0%;
+}
+.img1{
+    margin-top: -5em;
+    width: 80em;
+    height: 63em;
+    margin-left: -1em;
+    background-image: url('../img/25°.png');
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.img2{
+    flex-wrap: nowrap;
+    overflow: hidden;
+    margin-top: -5em;
+    width: 39.9em;
+    height: 63em;
+    background-image: url('../img/25°\ \(1\).png');
+}
+.cadrado1{
+    display: inline-flex;
+}
+.line{
+    height: 2px;
+    width: 80%;
+    background-color: white;
+    position: relative;
+    left:10%;
+    bottom: 5%;
+}
+.img2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.lupa{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 80%;
+    
+}
+.img2 ul{
+    list-style: none;
+    position: relative;
+    left: 10%;
+    line-height:3;
+
+}
+.titulos{
+    position: relative;
+    left: 10%;
+}
+.subtitulos{
+    position: relative;
+    left: 10%;
+    bottom: 5%;
+}
+.lista1{
+    bottom: 6%;
+}
+.listas{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 3%;
+}
+.pie{
+    width: 118.6em;
+    height: 66em;
+    background-image: url('../img/Tu\ puedes\ soñar\ \(8\)\ \(1\)\ \(1\).png');
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.centro{
+    width: 118.6em;
+    height: 66em;
+    background-image: url('../img/01\ \(1\).png');
+}
+.subo{
+    font-size: 61px;
+    color: #AAB7B8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    margin-left: 14em;
+    top: 5em;
+}
+.parrafo{
+    color: #839192;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    margin-left: 40%;
+    margin-right: 10em;
+    top: 20em;
+}
+.clima{
+    position: relative;
+    top: 5em;
+    left: 10em;
+    width: 150px;
+    height: 50px;
+    color: #AAB7B8;
+    font-family:'Times New Roman', Times, serif;
+    padding: 15px 30px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow:hidden;
+    transition: 0,2s;
+}
+.contactos{
+    color: #AAB7B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 118.9em;
+    height: 5em;
+}
